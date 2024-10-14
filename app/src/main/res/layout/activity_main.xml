@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <!-- TextView to Display Balance -->
+    <TextView
+        android:id="@+id/tvBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Balance: $0"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20dp"/>
+    <!-- EditText for Deposit Input -->
+    <EditText
+        android:id="@+id/etDepositAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Deposit Amount"
+        android:inputType="numberDecimal"/>
+    <!-- Button to Deposit Money -->
+    <Button
+        android:id="@+id/btnDeposit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deposit"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"/>
+    <!-- EditText for Withdrawal Input -->
+    <EditText
+        android:id="@+id/etWithdrawAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Withdraw Amount"
+        android:inputType="numberDecimal"/>
+    <!-- Button to Withdraw Money -->
+    <Button
+        android:id="@+id/btnWithdraw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Withdraw"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
